@@ -18,4 +18,11 @@ int main(){
     cout << "Nama Mahasiswa ke-" << i+1 << "=";
     cin >> nama [i];
    } 
+   cout<<endl;
+   //menampilkan array dengan loop for
+   for(int i=0; i<3; i++){
+    cout << "Data mahasiswa ke-" << i+1 << "=" << nama[i]
+    << endl;
+}
+
 }
